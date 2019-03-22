@@ -23,6 +23,14 @@ public class Person implements Serializable {
     this.leg = leg;
   }
 
+  public void methodB() {
+    methodA();
+  }
+
+  public static void methodA() {
+
+  }
+
   @Override
   public String toString() {
     return "Person{" +
